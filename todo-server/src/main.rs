@@ -20,8 +20,8 @@ async fn main() {
     let app = Router::new()
         .route("/", get(index))
         .route("/add", post(add_task))
-        .route("/done/{id}", post(mark_done))
-        .route("/delete/{id}", post(delete_task))
+        .route("/done/:id", post(mark_done))
+        .route("/delete/:id", post(delete_task))
         .nest_service("/static", ServeDir::new("todo-server/static"));
 
     let listener = tokio::net::TcpListener::bind("0.0.0.0:3000").await.unwrap();
