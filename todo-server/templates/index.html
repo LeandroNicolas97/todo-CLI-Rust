@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+
+        <form action="/add" method="post">
+            <input type="text" name="description" placeholder="Nueva tarea..." required>
+            <button type="submit">Agregar</button>
+        </form>
+
+        <ul>
+            {% for task in tasks %}
+            <li class="{% if task.done %}done{% else %}pending{% endif %}">
+                <span>{{ task.id }}. {{ task.description }}</span>
+                <div class="actions">
+                    {% if not task.done %}
+                    <form action="/done/{{ task.id }}" method="post">
+                        <button type="submit">✓</button>
+                    </form>
+                    {% endif %}
+                    <form action="/delete/{{ task.id }}" method="post">
+                        <button type="submit" class="delete">✕</button>
+                    </form>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
