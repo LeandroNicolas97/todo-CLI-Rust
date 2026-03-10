@@ -1,15 +1,23 @@
-# todo CLI
+# todo-rust-cli-server
 
-A full CLI todo list in Rust, runnable from any directory.
+A Rust workspace with two projects that share the same task logic:
+
+- **todo-cli** — CLI todo list, runnable from any terminal
+- **todo-server** — Web interface served on `localhost:3000`
 
 ## Installation
 
-Clone the repository and install with Cargo:
+Clone the repository:
 
 ```bash
-git clone https://github.com/LeandroNicolas97/todo-CLI-Rust.git
-cd todo-CLI-Rust
-cargo install --path .
+git clone https://github.com/LeandroNicolas97/todo-rust-cli-server.git
+cd todo-rust-cli-server
+```
+
+### CLI
+
+```bash
+cargo install --path todo-cli
 ```
 
 Make sure `~/.cargo/bin` is in your PATH. Add this to your `~/.zshrc` or `~/.bashrc`:
@@ -18,7 +26,15 @@ Make sure `~/.cargo/bin` is in your PATH. Add this to your `~/.zshrc` or `~/.bas
 export PATH="$HOME/.cargo/bin:$PATH"
 ```
 
-## Usage
+### Server
+
+```bash
+cargo run -p todo-server
+```
+
+Then open `http://localhost:3000` in your browser.
+
+## CLI Usage
 
 ```bash
 todo add "Buy milk"       # Add a task
