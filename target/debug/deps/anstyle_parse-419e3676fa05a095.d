@@ -1,0 +1,11 @@
+/home/leandro/proyects-rust/target/debug/deps/anstyle_parse-419e3676fa05a095.d: /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/lib.rs /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/params.rs /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/state/mod.rs /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/state/definitions.rs /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/state/table.rs
+
+/home/leandro/proyects-rust/target/debug/deps/libanstyle_parse-419e3676fa05a095.rlib: /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/lib.rs /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/params.rs /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/state/mod.rs /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/state/definitions.rs /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/state/table.rs
+
+/home/leandro/proyects-rust/target/debug/deps/libanstyle_parse-419e3676fa05a095.rmeta: /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/lib.rs /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/params.rs /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/state/mod.rs /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/state/definitions.rs /home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/state/table.rs
+
+/home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/lib.rs:
+/home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/params.rs:
+/home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/state/mod.rs:
+/home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/state/definitions.rs:
+/home/leandro/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.7/src/state/table.rs:

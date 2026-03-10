@@ -1,0 +1,1 @@
+/home/leandro/proyects-rust/target/debug/todo: /home/leandro/proyects-rust/todo-cli/src/lib.rs /home/leandro/proyects-rust/todo-cli/src/main.rs /home/leandro/proyects-rust/todo-cli/src/storage.rs /home/leandro/proyects-rust/todo-cli/src/task.rs

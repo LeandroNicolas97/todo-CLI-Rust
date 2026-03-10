@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "todo-cli",
+    "todo-server",
+]
+resolver = "2"
