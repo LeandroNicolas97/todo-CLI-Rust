@@ -27,6 +27,8 @@ enum Command {
     Done { id: u32 },
     /// Eliminar una tarea
     Delete { id: u32 },
+    /// Eliminar todas las tareas completadas y reenumerar las pendientes
+    Clean,
 }
 
 fn main() {
@@ -83,6 +85,17 @@ fn main() {
             } else {
                 println!("{}", format!("No existe tarea con id {}.", id).red());
             }
+        }
+
+        Command::Clean => {
+            let before = tasks.len();
+            tasks.retain(|t| !t.done);
+            let removed = before - tasks.len();
+            for (i, task) in tasks.iter_mut().enumerate() {
+                task.id = (i + 1) as u32;
+            }
+            storage::save_tasks(&tasks);
+            println!("{}", format!("{} tarea(s) completada(s) eliminada(s). {} pendiente(s) reenumerada(s).", removed, tasks.len()).green());
         }
     }
 }
